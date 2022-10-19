@@ -1,0 +1,25 @@
+{
+  "name": "equalizer-landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "eslint": "^8.25.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "live-server": "^1.2.2",
+    "sass": "^1.55.0"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,json}": ["eslint . --fix", "prettier --write ."]
+  },
+  "scripts": {
+    "configure-husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
