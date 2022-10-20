@@ -1,0 +1,41 @@
+@mixin headers(
+  $header-size,
+  $header-weigth,
+  $header-line,
+  $header-spacing: -0.1rem
+) {
+  font-family: $general-font;
+  font-size: $header-size;
+  font-weight: $header-weigth;
+  line-height: $header-line;
+  letter-spacing: $header-spacing;
+}
+
+@mixin body($body-size, $body-weigth, $body-line) {
+  font-family: $general-font;
+  font-size: $body-size;
+  font-weight: $body-weigth;
+  line-height: $body-line;
+  letter-spacing: 0;
+}
+
+@mixin primary-header-small() {
+  @include headers(4rem, 700, 5.2rem, -0.1rem);
+}
+
+@mixin seconday-header-small() {
+  @include headers(3.2rem, 700, 5.2rem, 0);
+}
+
+@mixin body-l() {
+  @include body(2.6rem, 400, 3.4rem);
+}
+@mixin body-s() {
+  @include body(1.6rem, 400, 2.6rem);
+}
+
+@mixin flex($direction, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  gap: $gap;
+}

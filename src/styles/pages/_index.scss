@@ -1,0 +1,83 @@
+h1 {
+  @include primary-header-small;
+}
+
+p {
+  @include body-l;
+}
+
+.main {
+  text-align: left;
+  padding-left: 2.6rem;
+  width: 32.7rem;
+
+  &__title {
+    margin-bottom: 2.9rem;
+  }
+  &__text {
+    @include body-s;
+  }
+}
+
+.equalizer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  margin-top: 15rem;
+  height: 95rem;
+  &__img-container {
+    display: flex;
+    width: 100%;
+    height: 52rem;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    background-color: $dark-black;
+    z-index: -2;
+    border-radius: 1.2rem;
+  }
+  &__img {
+    max-width: 20.9rem;
+    position: absolute;
+    top: -8rem;
+  }
+  &__img-bg {
+    width: 28rem;
+    position: absolute;
+    z-index: -1;
+  }
+}
+.btn_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.pricebox {
+  background-color: $light-orange;
+  padding: 4rem 2.6rem;
+  color: $light-white;
+  font-size: 1.2rem;
+  position: relative;
+  top: -12rem;
+  border-radius: 1.2rem;
+  &__title {
+    @include seconday-header-small;
+  }
+  &__text {
+    @include body-s;
+  }
+  &__text--price {
+    display: flex;
+    font-size: 6.5rem;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 1.6rem;
+    height: 6rem;
+  }
+  &__text--month {
+    @include body-s;
+    margin-left: 1.6rem;
+  }
+}

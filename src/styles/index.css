@@ -1,0 +1,213 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+picture {
+  width: max-content;
+}
+
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  letter-spacing: -0.1rem;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 3.4rem;
+  letter-spacing: 0;
+}
+
+.main {
+  text-align: left;
+  padding-left: 2.6rem;
+  width: 32.7rem;
+}
+.main__title {
+  margin-bottom: 2.9rem;
+}
+.main__text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0;
+}
+
+.equalizer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  margin-top: 15rem;
+  height: 95rem;
+}
+.equalizer__img-container {
+  display: flex;
+  width: 100%;
+  height: 52rem;
+  justify-content: center;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  background-color: #191826;
+  z-index: -2;
+  border-radius: 1.2rem;
+}
+.equalizer__img {
+  max-width: 20.9rem;
+  position: absolute;
+  top: -8rem;
+}
+.equalizer__img-bg {
+  width: 28rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.btn_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.pricebox {
+  background-color: #fa7453;
+  padding: 4rem 2.6rem;
+  color: #fcfaf9;
+  font-size: 1.2rem;
+  position: relative;
+  top: -12rem;
+  border-radius: 1.2rem;
+}
+.pricebox__title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  letter-spacing: 0;
+}
+.pricebox__text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0;
+}
+.pricebox__text--price {
+  display: flex;
+  font-size: 6.5rem;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 1.6rem;
+  height: 6rem;
+}
+.pricebox__text--month {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0;
+  margin-left: 1.6rem;
+}
+
+.download-btn {
+  display: flex;
+  flex-direction: 'column';
+  gap: 0.8rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  letter-spacing: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #191826;
+  text-align: center;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 1.2rem;
+  min-width: 29.6rem;
+  height: 6.6rem;
+  justify-content: center;
+  align-items: center;
+}
+.download-btn__icon {
+  width: 1.67rem;
+  height: 2rem;
+}
+
+.download-btn--ios {
+  background-color: #191826;
+  color: #fcfaf9;
+}
+
+.header {
+  height: 13.6rem;
+  width: 100%;
+  padding-top: 4rem;
+  padding-left: 2.6rem;
+}
+.header__img {
+  width: 14.6rem;
+  height: 3.2rem;
+}
+.header__bg {
+  position: absolute;
+  width: 28rem;
+  height: 48rem;
+  top: -10rem;
+  left: 17rem;
+}
+
+.footer {
+  width: 100%;
+  padding-top: 4rem;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  padding-bottom: 7rem;
+}
+.footer__img {
+  width: 14.6rem;
+  height: 3.2rem;
+  margin-bottom: 3rem;
+}
+.footer__text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0;
+  margin-bottom: 7rem;
+}
+.footer__text--strong {
+  font-weight: 700;
+}
+.footer__icons {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.footer__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */

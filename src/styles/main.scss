@@ -1,0 +1,18 @@
+@use 'sass:math';
+
+//base
+@import './base/base';
+
+//abstract
+@import './abstract/mixings';
+@import './abstract/variables';
+
+//pages
+@import './pages/index';
+
+//components
+@import './components/buttons';
+
+//layouts
+@import './layout/header';
+@import './layout/footer';

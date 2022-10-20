@@ -1,0 +1,24 @@
+.download-btn {
+  @include flex('column', 0.8rem);
+  @include body(1.8rem, 700, 3.2rem);
+  font-family: $general-font;
+  color: $dark-black;
+  text-align: center;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 1.2rem;
+  min-width: 29.6rem;
+  height: 6.6rem;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    width: 1.67rem;
+    height: 2rem;
+  }
+}
+
+.download-btn--ios {
+  background-color: $dark-black;
+  color: $light-white;
+}

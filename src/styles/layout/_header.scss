@@ -1,0 +1,17 @@
+.header {
+  height: 13.6rem;
+  width: 100%;
+  padding-top: 4rem;
+  padding-left: 2.6rem;
+  &__img {
+    width: 14.6rem;
+    height: 3.2rem;
+  }
+  &__bg {
+    position: absolute;
+    width: 28rem;
+    height: 48rem;
+    top: -10rem;
+    left: 17rem;
+  }
+}
